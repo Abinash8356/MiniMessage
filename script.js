@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect("mongodb://localhost:27017/mini-message",{
+mongoose.connect('mongodb+srv://m001-student:root@sandbox.8j88r.mongodb.net/blogapi?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
